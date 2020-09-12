@@ -1,0 +1,337 @@
+[jcrcx@art ~]$ cat /var/log/Xorg.0.log 
+[ 26135.884] 
+X.Org X Server 1.20.8 
+X Protocol Version 11, Revision 0 
+[ 26135.886] Build Operating System: Linux 5.4.60-gentoo x86_64 Gentoo 
+[ 26135.887] Current Operating System: Linux art 5.4.60-gentoo #4 SMP Tue Sep 8 12:35:44 CDT 2020 x86_64 
+[ 26135.887] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.60-gentoo root=/dev/sda2 ro 
+[ 26135.889] Build Date: 08 September 2020  05:48:46PM 
+[ 26135.890] 
+[ 26135.891] Current version of pixman: 0.40.0 
+[ 26135.893]    Before reporting problems, check http://wiki.x.org 
+        to make sure that you have the latest version. 
+[ 26135.893] Markers: (--) probed, (**) from config file, (==) default setting, 
+        (++) from command line, (!!) notice, (II) informational, 
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown. 
+[ 26135.898] (==) Log file: "/var/log/Xorg.0.log", Time: Tue Sep  8 20:51:55 2020 
+[ 26135.899] (==) Using system config directory "/usr/share/X11/xorg.conf.d" 
+[ 26135.899] (==) No Layout section.  Using the first Screen section. 
+[ 26135.899] (==) No screen section available. Using defaults. 
+[ 26135.899] (**) |-->Screen "Default Screen Section" (0) 
+[ 26135.899] (**) |   |-->Monitor "<default monitor>" 
+[ 26135.900] (==) No monitor specified for screen "Default Screen Section". 
+        Using a default monitor configuration. 
+[ 26135.900] (==) Automatically adding devices 
+[ 26135.900] (==) Automatically enabling devices 
+[ 26135.900] (==) Automatically adding GPU devices 
+[ 26135.900] (==) Max clients allowed: 256, resource mask: 0x1fffff 
+[ 26135.900] (WW) The directory "/usr/share/fonts/misc/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (WW) The directory "/usr/share/fonts/TTF/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (WW) The directory "/usr/share/fonts/OTF/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (WW) The directory "/usr/share/fonts/Type1/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (WW) The directory "/usr/share/fonts/100dpi/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (WW) The directory "/usr/share/fonts/75dpi/" does not exist. 
+[ 26135.900]    Entry deleted from font path. 
+[ 26135.900] (==) FontPath set to: 
+[ 26135.900] (==) ModulePath set to "/usr/lib64/xorg/modules" 
+[ 26135.900] (II) The server relies on udev to provide the list of input devices. 
+        If no devices become available, reconfigure udev or disable AutoAddDevices. 
+[ 26135.900] (II) Loader magic: 0x5645be215ce0 
+[ 26135.900] (II) Module ABI versions: 
+[ 26135.900]    X.Org ANSI C Emulation: 0.4 
+[ 26135.900]    X.Org Video Driver: 24.1 
+[ 26135.900]    X.Org XInput driver : 24.1 
+[ 26135.900]    X.Org Server Extension : 10.0 
+[ 26135.900] (EE) dbus-core: error connecting to system bus: org.freedesktop.DBus.Error.FileNotFound (Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory) 
+[ 26135.900] (--) using VT number 7 
+[ 26135.900] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration 
+[ 26135.901] (II) xfree86: Adding drm device (/dev/dri/card0) 
+[ 26135.920] (--) PCI:*(0@0:2:0) 8086:5916:1025:108f rev 2, Mem @ 0xb0000000/16777216, 0xa0000000/268435456, I/O @ 0x00004000/64, BIOS @ 0x????????/131072 
+[ 26135.920] (II) LoadModule: "glx" 
+[ 26135.920] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so 
+[ 26135.921] (II) Module glx: vendor="X.Org Foundation" 
+[ 26135.921]    compiled for 1.20.8, module version = 1.0.0 
+[ 26135.921]    ABI class: X.Org Server Extension, version 10.0 
+[ 26135.921] (==) Matched intel as autoconfigured driver 0 
+[ 26135.921] (==) Matched modesetting as autoconfigured driver 1 
+[ 26135.921] (==) Matched fbdev as autoconfigured driver 2 
+[ 26135.921] (==) Matched vesa as autoconfigured driver 3 
+[ 26135.921] (==) Assigned the driver to the xf86ConfigLayout 
+[ 26135.921] (II) LoadModule: "intel" 
+[ 26135.921] (II) Loading /usr/lib64/xorg/modules/drivers/intel_drv.so 
+[ 26135.921] (II) Module intel: vendor="X.Org Foundation" 
+[ 26135.921]    compiled for 1.20.8, module version = 2.99.917 
+[ 26135.921]    Module class: X.Org Video Driver 
+[ 26135.921]    ABI class: X.Org Video Driver, version 24.1 
+[ 26135.921] (II) LoadModule: "modesetting" 
+[ 26135.921] (II) Loading /usr/lib64/xorg/modules/drivers/modesetting_drv.so 
+[ 26135.921] (II) Module modesetting: vendor="X.Org Foundation" 
+[ 26135.921]    compiled for 1.20.8, module version = 1.20.8 
+[ 26135.921]    Module class: X.Org Video Driver 
+[ 26135.921]    ABI class: X.Org Video Driver, version 24.1 
+[ 26135.921] (II) LoadModule: "fbdev" 
+[ 26135.921] (WW) Warning, couldn't open module fbdev 
+[ 26135.921] (EE) Failed to load module "fbdev" (module does not exist, 0) 
+[ 26135.921] (II) LoadModule: "vesa" 
+[ 26135.922] (WW) Warning, couldn't open module vesa 
+[ 26135.922] (EE) Failed to load module "vesa" (module does not exist, 0) 
+[ 26135.922] (II) intel: Driver for Intel(R) Integrated Graphics Chipsets: 
+        i810, i810-dc100, i810e, i815, i830M, 845G, 854, 852GM/855GM, 865G, 
+        915G, E7221 (i915), 915GM, 945G, 945GM, 945GME, Pineview GM, 
+        Pineview G, 965G, G35, 965Q, 946GZ, 965GM, 965GME/GLE, G33, Q35, Q33, 
+        GM45, 4 Series, G45/G43, Q45/Q43, G41, B43 
+[ 26135.922] (II) intel: Driver for Intel(R) HD Graphics 
+[ 26135.922] (II) intel: Driver for Intel(R) Iris(TM) Graphics 
+[ 26135.922] (II) intel: Driver for Intel(R) Iris(TM) Pro Graphics 
+[ 26135.922] (II) modesetting: Driver for Modesetting Kernel Drivers: kms 
+[ 26135.936] (II) intel(0): Using Kernel Mode Setting driver: i915, version 1.6.0 20190822 
+[ 26135.949] (WW) Falling back to old probe method for modesetting 
+[ 26135.949] (--) intel(0): Integrated Graphics Chipset: Intel(R) HD Graphics 620 
+[ 26135.949] (--) intel(0): CPU: x86-64, sse2, sse3, ssse3, sse4.1, sse4.2, avx, avx2; using a maximum of 2 threads 
+[ 26135.949] (II) intel(0): Creating default Display subsection in Screen section 
+        "Default Screen Section" for depth/fbbpp 24/32 
+[ 26135.949] (==) intel(0): Depth 24, (--) framebuffer bpp 32 
+[ 26135.949] (==) intel(0): RGB weight 888 
+[ 26135.949] (==) intel(0): Default visual is TrueColor 
+[ 26135.949] (II) intel(0): Output eDP1 has no monitor section 
+[ 26135.949] (**) intel(0): Found backlight control interface intel_backlight (type 'raw') for output eDP1 
+[ 26135.949] (II) intel(0): Enabled output eDP1 
+[ 26135.950] (II) intel(0): Output HDMI1 has no monitor section 
+[ 26135.950] (II) intel(0): Enabled output HDMI1 
+[ 26135.950] (II) intel(0): Output DP1 has no monitor section 
+[ 26135.950] (II) intel(0): Enabled output DP1 
+[ 26135.950] (--) intel(0): Using a maximum size of 256x256 for hardware cursors 
+[ 26135.950] (II) intel(0): Output VIRTUAL1 has no monitor section 
+[ 26135.950] (II) intel(0): Enabled output VIRTUAL1 
+[ 26135.950] (--) intel(0): Output eDP1 using initial mode 1366x768 on pipe 0 
+[ 26135.950] (==) intel(0): TearFree enabled 
+[ 26135.950] (==) intel(0): Using gamma correction (1.0, 1.0, 1.0) 
+[ 26135.950] (==) intel(0): DPI set to (96, 96) 
+[ 26135.950] (II) Loading sub module "dri3" 
+[ 26135.950] (II) LoadModule: "dri3" 
+[ 26135.950] (II) Module "dri3" already built-in 
+[ 26135.950] (II) Loading sub module "dri2" 
+[ 26135.950] (II) LoadModule: "dri2" 
+[ 26135.950] (II) Module "dri2" already built-in 
+[ 26135.950] (II) Loading sub module "present" 
+[ 26135.950] (II) LoadModule: "present" 
+[ 26135.950] (II) Module "present" already built-in 
+[ 26135.950] (II) UnloadModule: "modesetting" 
+[ 26135.950] (II) Unloading modesetting 
+[ 26135.950] (II) intel(0): SNA initialized with Kabylake (gen9) backend 
+[ 26135.950] (==) intel(0): Backing store enabled 
+[ 26135.950] (==) intel(0): Silken mouse enabled 
+[ 26135.950] (II) intel(0): HW Cursor enabled 
+[ 26135.951] (==) intel(0): DPMS enabled 
+[ 26135.951] (==) intel(0): Display hotplug detection enabled 
+[ 26135.951] (II) intel(0): [DRI2] Setup complete 
+[ 26135.951] (II) intel(0): [DRI2]   DRI driver: i965 
+[ 26135.951] (II) intel(0): [DRI2]   VDPAU driver: va_gl 
+[ 26135.951] (II) intel(0): direct rendering: DRI2 DRI3 enabled 
+[ 26135.951] (II) intel(0): hardware support for Present enabled 
+[ 26135.951] (II) Initializing extension Generic Event Extension 
+[ 26135.951] (II) Initializing extension SHAPE 
+[ 26135.951] (II) Initializing extension MIT-SHM 
+[ 26135.951] (II) Initializing extension XInputExtension 
+[ 26135.951] (II) Initializing extension XTEST 
+[ 26135.951] (II) Initializing extension BIG-REQUESTS 
+[ 26135.951] (II) Initializing extension SYNC 
+[ 26135.951] (II) Initializing extension XKEYBOARD 
+[ 26135.951] (II) Initializing extension XC-MISC 
+[ 26135.951] (II) Initializing extension XFIXES 
+[ 26135.951] (II) Initializing extension RENDER 
+[ 26135.951] (II) Initializing extension RANDR 
+[ 26135.951] (II) Initializing extension COMPOSITE 
+[ 26135.951] (II) Initializing extension DAMAGE 
+[ 26135.951] (II) Initializing extension MIT-SCREEN-SAVER 
+[ 26135.951] (II) Initializing extension DOUBLE-BUFFER 
+[ 26135.951] (II) Initializing extension RECORD 
+[ 26135.951] (II) Initializing extension DPMS 
+[ 26135.951] (II) Initializing extension Present 
+[ 26135.951] (II) Initializing extension DRI3 
+[ 26135.951] (II) Initializing extension X-Resource 
+[ 26135.951] (II) Initializing extension XVideo 
+[ 26135.951] (II) Initializing extension XVideo-MotionCompensation 
+[ 26135.951] (II) Initializing extension GLX 
+[ 26135.951] (EE) AIGLX error: dlopen of /usr/lib64/dri/i965_dri.so failed (/usr/lib64/dri/i965_dri.so: cannot open shared object file: No such file or directory) 
+[ 26135.951] (EE) AIGLX error: unable to load driver i965 
+[ 26135.978] (II) IGLX: Loaded and initialized swrast 
+[ 26135.978] (II) GLX: Initialized DRISWRAST GL provider for screen 0 
+[ 26135.978] (II) Initializing extension XFree86-VidModeExtension 
+[ 26135.978] (II) Initializing extension XFree86-DGA 
+[ 26135.978] (II) Initializing extension XFree86-DRI 
+[ 26135.978] (II) Initializing extension DRI2 
+[ 26135.979] (II) intel(0): switch to mode 1366x768@60.0 on eDP1 using pipe 0, position (0, 0), rotation normal, reflection none 
+[ 26135.983] (II) intel(0): Setting screen physical size to 361 x 203 
+[ 26136.003] (II) config/udev: Adding input device Power Button (/dev/input/event3) 
+[ 26136.003] (**) Power Button: Applying InputClass "libinput keyboard catchall" 
+[ 26136.003] (II) LoadModule: "libinput" 
+[ 26136.003] (II) Loading /usr/lib64/xorg/modules/input/libinput_drv.so 
+[ 26136.003] (II) Module libinput: vendor="X.Org Foundation" 
+[ 26136.003]    compiled for 1.20.8, module version = 0.30.0 
+[ 26136.003]    Module class: X.Org XInput Driver 
+[ 26136.003]    ABI class: X.Org XInput driver, version 24.1 
+[ 26136.003] (II) Using input driver 'libinput' for 'Power Button' 
+[ 26136.003] (**) Power Button: always reports core events 
+[ 26136.003] (**) Option "Device" "/dev/input/event3" 
+[ 26136.003] (**) Option "_source" "server/udev" 
+[ 26136.005] (II) event3  - Power Button: is tagged by udev as: Keyboard 
+[ 26136.005] (II) event3  - Power Button: device is a keyboard 
+[ 26136.005] (II) event3  - Power Button: device removed 
+[ 26136.012] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3/event3" 
+[ 26136.012] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6) 
+[ 26136.013] (II) event3  - Power Button: is tagged by udev as: Keyboard 
+[ 26136.013] (II) event3  - Power Button: device is a keyboard 
+[ 26136.013] (II) config/udev: Adding input device Video Bus (/dev/input/event4) 
+[ 26136.013] (**) Video Bus: Applying InputClass "libinput keyboard catchall" 
+[ 26136.013] (II) Using input driver 'libinput' for 'Video Bus' 
+[ 26136.013] (**) Video Bus: always reports core events 
+[ 26136.013] (**) Option "Device" "/dev/input/event4" 
+[ 26136.013] (**) Option "_source" "server/udev" 
+[ 26136.013] (II) event4  - Video Bus: is tagged by udev as: Keyboard 
+[ 26136.014] (II) event4  - Video Bus: device is a keyboard 
+[ 26136.014] (II) event4  - Video Bus: device removed 
+[ 26136.022] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input4/event4" 
+[ 26136.022] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 7) 
+[ 26136.023] (II) event4  - Video Bus: is tagged by udev as: Keyboard 
+[ 26136.023] (II) event4  - Video Bus: device is a keyboard 
+[ 26136.023] (II) config/udev: Adding input device Power Button (/dev/input/event0) 
+[ 26136.023] (**) Power Button: Applying InputClass "libinput keyboard catchall" 
+[ 26136.023] (II) Using input driver 'libinput' for 'Power Button' 
+[ 26136.023] (**) Power Button: always reports core events 
+[ 26136.023] (**) Option "Device" "/dev/input/event0" 
+[ 26136.023] (**) Option "_source" "server/udev" 
+[ 26136.023] (II) event0  - Power Button: is tagged by udev as: Keyboard 
+[ 26136.023] (II) event0  - Power Button: device is a keyboard 
+[ 26136.024] (II) event0  - Power Button: device removed 
+[ 26136.032] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0/event0" 
+[ 26136.032] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 8) 
+[ 26136.033] (II) event0  - Power Button: is tagged by udev as: Keyboard 
+[ 26136.033] (II) event0  - Power Button: device is a keyboard 
+[ 26136.033] (II) config/udev: Adding input device Lid Switch (/dev/input/event2) 
+[ 26136.033] (II) No input driver specified, ignoring this device. 
+[ 26136.033] (II) This device may have been added with another device file. 
+[ 26136.033] (II) config/udev: Adding input device Sleep Button (/dev/input/event1) 
+[ 26136.033] (**) Sleep Button: Applying InputClass "libinput keyboard catchall" 
+[ 26136.033] (II) Using input driver 'libinput' for 'Sleep Button' 
+[ 26136.033] (**) Sleep Button: always reports core events 
+[ 26136.033] (**) Option "Device" "/dev/input/event1" 
+[ 26136.033] (**) Option "_source" "server/udev" 
+[ 26136.034] (II) event1  - Sleep Button: is tagged by udev as: Keyboard 
+[ 26136.034] (II) event1  - Sleep Button: device is a keyboard 
+[ 26136.034] (II) event1  - Sleep Button: device removed 
+[ 26136.042] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input1/event1" 
+[ 26136.042] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 9) 
+[ 26136.043] (II) event1  - Sleep Button: is tagged by udev as: Keyboard 
+[ 26136.043] (II) event1  - Sleep Button: device is a keyboard 
+[ 26136.043] (II) config/udev: Adding input device Logitech USB Receiver (/dev/input/event6) 
+[ 26136.044] (**) Logitech USB Receiver: Applying InputClass "libinput keyboard catchall" 
+[ 26136.044] (II) Using input driver 'libinput' for 'Logitech USB Receiver' 
+[ 26136.044] (**) Logitech USB Receiver: always reports core events 
+[ 26136.044] (**) Option "Device" "/dev/input/event6" 
+[ 26136.044] (**) Option "_source" "server/udev" 
+[ 26136.045] (II) event6  - Logitech USB Receiver: is tagged by udev as: Keyboard 
+[ 26136.045] (II) event6  - Logitech USB Receiver: device is a keyboard 
+[ 26136.045] (II) event6  - Logitech USB Receiver: device removed 
+[ 26136.052] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.0/0003:046D:C534.0001/input/input7/event6" 
+[ 26136.052] (II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: KEYBOARD, id 10) 
+[ 26136.053] (II) event6  - Logitech USB Receiver: is tagged by udev as: Keyboard 
+[ 26136.053] (II) event6  - Logitech USB Receiver: device is a keyboard 
+[ 26136.054] (II) config/udev: Adding input device Logitech USB Receiver System Control (/dev/input/event9) 
+[ 26136.054] (**) Logitech USB Receiver System Control: Applying InputClass "libinput keyboard catchall" 
+[ 26136.054] (II) Using input driver 'libinput' for 'Logitech USB Receiver System Control' 
+[ 26136.054] (**) Logitech USB Receiver System Control: always reports core events
+[ 26136.054] (**) Option "Device" "/dev/input/event9" 
+[ 26136.054] (**) Option "_source" "server/udev" 
+[ 26136.055] (II) event9  - Logitech USB Receiver System Control: is tagged by udev as: Keyboard 
+[ 26136.055] (II) event9  - Logitech USB Receiver System Control: device is a keyboard 
+[ 26136.056] (II) event9  - Logitech USB Receiver System Control: device removed 
+[ 26136.064] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:046D:C534.0002/input/input10/event9" 
+[ 26136.064] (II) XINPUT: Adding extended input device "Logitech USB Receiver System Control" (type: KEYBOARD, id 11) 
+[ 26136.065] (II) event9  - Logitech USB Receiver System Control: is tagged by udev as: Keyboard 
+[ 26136.065] (II) event9  - Logitech USB Receiver System Control: device is a keyboard 
+[ 26136.066] (II) config/udev: Adding input device Logitech USB Receiver Mouse (/dev/input/event7) 
+[ 26136.066] (**) Logitech USB Receiver Mouse: Applying InputClass "libinput pointer catchall" 
+[ 26136.066] (II) Using input driver 'libinput' for 'Logitech USB Receiver Mouse' 
+[ 26136.066] (**) Logitech USB Receiver Mouse: always reports core events 
+[ 26136.066] (**) Option "Device" "/dev/input/event7" 
+[ 26136.066] (**) Option "_source" "server/udev" 
+[ 26136.067] (II) event7  - Logitech USB Receiver Mouse: is tagged by udev as: Mouse 
+[ 26136.068] (II) event7  - Logitech USB Receiver Mouse: device is a pointer 
+[ 26136.068] (II) event7  - Logitech USB Receiver Mouse: device removed 
+[ 26136.076] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:046D:C534.0002/input/input8/event7" 
+[ 26136.076] (II) XINPUT: Adding extended input device "Logitech USB Receiver Mouse" (type: MOUSE, id 12) 
+[ 26136.076] (**) Option "AccelerationScheme" "none" 
+[ 26136.076] (**) Logitech USB Receiver Mouse: (accel) selected scheme none/0 
+[ 26136.076] (**) Logitech USB Receiver Mouse: (accel) acceleration factor: 2.000 
+[ 26136.076] (**) Logitech USB Receiver Mouse: (accel) acceleration threshold: 4 
+[ 26136.077] (II) event7  - Logitech USB Receiver Mouse: is tagged by udev as: Mouse 
+[ 26136.078] (II) event7  - Logitech USB Receiver Mouse: device is a pointer 
+[ 26136.078] (II) config/udev: Adding input device Logitech USB Receiver Consumer Control (/dev/input/event8) 
+[ 26136.078] (**) Logitech USB Receiver Consumer Control: Applying InputClass "libinput keyboard catchall" 
+[ 26136.078] (II) Using input driver 'libinput' for 'Logitech USB Receiver Consumer Control' 
+[ 26136.078] (**) Logitech USB Receiver Consumer Control: always reports core events 
+[ 26136.078] (**) Option "Device" "/dev/input/event8" 
+[ 26136.078] (**) Option "_source" "server/udev" 
+[ 26136.080] (II) event8  - Logitech USB Receiver Consumer Control: is tagged by udev as: Keyboard 
+[ 26136.080] (II) event8  - Logitech USB Receiver Consumer Control: device is a keyboard 
+[ 26136.080] (II) event8  - Logitech USB Receiver Consumer Control: device removed
+[ 26136.088] (II) libinput: Logitech USB Receiver Consumer Control: needs a virtual subdevice 
+[ 26136.088] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:046D:C534.0002/input/input9/event8" 
+[ 26136.088] (II) XINPUT: Adding extended input device "Logitech USB Receiver Consumer Control" (type: MOUSE, id 13) 
+[ 26136.088] (**) Option "AccelerationScheme" "none" 
+[ 26136.088] (**) Logitech USB Receiver Consumer Control: (accel) selected scheme none/0 
+[ 26136.088] (**) Logitech USB Receiver Consumer Control: (accel) acceleration factor: 2.000 
+[ 26136.088] (**) Logitech USB Receiver Consumer Control: (accel) acceleration threshold: 4 
+[ 26136.089] (II) event8  - Logitech USB Receiver Consumer Control: is tagged by udev as: Keyboard 
+[ 26136.089] (II) event8  - Logitech USB Receiver Consumer Control: device is a keyboard 
+[ 26136.090] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event5) 
+[ 26136.090] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall" 
+[ 26136.090] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[ 26136.090] (**) AT Translated Set 2 keyboard: always reports core events 
+[ 26136.090] (**) Option "Device" "/dev/input/event5" 
+[ 26136.090] (**) Option "_source" "server/udev" 
+[ 26136.091] (II) event5  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard 
+[ 26136.091] (II) event5  - AT Translated Set 2 keyboard: device is a keyboard 
+[ 26136.092] (II) event5  - AT Translated Set 2 keyboard: device removed 
+[ 26136.100] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input5/event5" 
+[ 26136.100] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 14) 
+[ 26136.101] (II) event5  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard 
+[ 26136.101] (II) event5  - AT Translated Set 2 keyboard: device is a keyboard 
+[ 26136.118] (**) Logitech USB Receiver Consumer Control: Applying InputClass "libinput keyboard catchall" 
+[ 26136.118] (II) Using input driver 'libinput' for 'Logitech USB Receiver Consumer Control' 
+[ 26136.118] (**) Logitech USB Receiver Consumer Control: always reports core events 
+[ 26136.118] (**) Option "Device" "/dev/input/event8" 
+[ 26136.118] (**) Option "_source" "_driver/libinput" 
+[ 26136.118] (II) libinput: Logitech USB Receiver Consumer Control: is a virtual subdevice 
+[ 26136.118] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-4/1-4:1.1/0003:046D:C534.0002/input/input9/event8" 
+[ 26136.118] (II) XINPUT: Adding extended input device "Logitech USB Receiver Consumer Control" (type: KEYBOARD, id 15) 
+[ 26136.118] (EE) dbus-core: error connecting to system bus: org.freedesktop.DBus.Error.FileNotFound (Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory) 
+[ 26137.951] (II) intel(0): EDID vendor "LGD", prod id 1285 
+[ 26137.951] (II) intel(0): Printing DDC gathered Modelines: 
+[ 26137.952] (II) intel(0): Modeline "1366x768"x0.0   76.32  1366 1414 1446 1610  768 771 776 790 -hsync -vsync (47.4 kHz eP) 
+[ 26143.411] (II) event3  - Power Button: device removed 
+[ 26143.419] (II) event4  - Video Bus: device removed 
+[ 26143.427] (II) event0  - Power Button: device removed 
+[ 26143.435] (II) event1  - Sleep Button: device removed 
+[ 26143.443] (II) event6  - Logitech USB Receiver: device removed 
+[ 26143.451] (II) event9  - Logitech USB Receiver System Control: device removed 
+[ 26143.459] (II) event7  - Logitech USB Receiver Mouse: device removed 
+[ 26143.467] (II) event5  - AT Translated Set 2 keyboard: device removed 
+[ 26143.475] (II) event8  - Logitech USB Receiver Consumer Control: device removed
+[ 26143.483] (II) UnloadModule: "libinput" 
+[ 26143.483] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.484] (II) UnloadModule: "libinput" 
+[ 26143.572] (II) Server terminated successfully (0). Closing log file. 
